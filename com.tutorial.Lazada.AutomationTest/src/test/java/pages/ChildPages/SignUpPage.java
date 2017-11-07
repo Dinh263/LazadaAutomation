@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import pages.ChildPages.DashBoards.DashboardPage;
+
 public class SignUpPage extends DashboardPage {
 
 	@FindBy(xpath="//input[@value='male']")

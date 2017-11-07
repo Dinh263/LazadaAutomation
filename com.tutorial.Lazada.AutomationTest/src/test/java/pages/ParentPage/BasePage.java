@@ -27,6 +27,7 @@ public class BasePage {
 		driver.get(pageURL);
 	}
 	
+	
 	private void waitForElement(WebElement element) {
 		driverWait.until(ExpectedConditions.visibilityOf(element));
 	}
