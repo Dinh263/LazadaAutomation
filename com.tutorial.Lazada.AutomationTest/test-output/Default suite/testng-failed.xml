@@ -3,14 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testcases.TC04_ChangePhoneNumber">
+      <class name="BasePackage.Testlogin">
         <methods>
-          <include name="openBrowser"/>
-          <include name="goToAccountProfile"/>
-          <include name="signUpAnAccount"/>
           <include name="closeBrowser"/>
+          <include name="signUpAnAccount"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- testcases.TC04_ChangePhoneNumber -->
+      </class> <!-- BasePackage.Testlogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
